@@ -1,9 +1,12 @@
 /*
- Tento soubor obsahue DDL skript, ktery vytvori strukturu databaze, jez slouzi
- jako semestralni prace v ramci predmetu 'Databazove systemy I', ktery studuji
- na Fakulte elektrotechniky a informatiky, Univerzity Pardubice.
- 
- Autor: Jiri Skoda<jiri.skoda@student.upce.cz>
+ Tento soubor obsahue DDL skript, ktery vytvori strukturu databaze, jez
+ slouzi jako zakladni struktura semestralni prace z predmetu 'Databazove
+ Systemy II' na Fakulte elektrotechniky a informatiky Univerzity
+ Pardubice.
+
+ Autori:
+ David Schwam<david.schwam@student.upce.cz>
+ Jiri Skoda<jiri.skoda@student.upce.cz>
  Pardubice, 2022
 */
 
