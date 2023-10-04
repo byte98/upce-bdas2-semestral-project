@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2331DF6-0E24-050A-E0E2-D6A261BA5772" containerWithKeyObject="A44B3C1E-A175-3488-2D5F-B39B099CA17C" localFKIndex="1649A074-F7E6-9376-5D4F-EBB6FDEE551E" name="vozidlo_provoz_fk">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>A0496693-A520-E474-EE38-8E45D351B2C1</importedID>
+<referredTableLongName>provozy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>083829C5-809E-F964-2FE0-4D3C5E5364F0</referredTableID>
+<keyObject>2836F43F-C147-8844-3B4C-7724AC6E8EAF</keyObject>
+<referredKeyID>2836F43F-C147-8844-3B4C-7724AC6E8EAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_provoz</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="B23Z_BDAS2_SEMESTRAL_PROJECT" id="49CD7EAB-A16A-3068-B491-DE234BA6C4F8" mainViewID="224BDAF4-B4B4-C0EC-D781-2E701E458EB8">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:49:52 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</fileName>
+<pathName>O:\upce\B23Z\BDAS2\SEMESTRAL_PROJECT</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F736878-66AB-40C0-E062-43615B1CAE0D" containerWithKeyObject="531C0668-9E72-9B02-49BE-842B065D8EA3" localFKIndex="ECD49D23-E22A-439A-6AFA-4D33DDFAC32F" name="skutecne_rady_smeny_fk">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>FD2EB921-DBD8-A423-D1D9-7B19638ABD27</importedID>
+<referredTableLongName>smeny</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>109F59AF-B2B7-9E15-A7B0-BDD0D19DC656</referredTableID>
+<keyObject>4D8FAA72-D11E-ED7A-2558-7A413FD84DD8</keyObject>
+<referredKeyID>4D8FAA72-D11E-ED7A-2558-7A413FD84DD8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_smena</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

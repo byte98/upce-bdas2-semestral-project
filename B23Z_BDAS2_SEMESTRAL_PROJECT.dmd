@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="B23Z_BDAS2_SEMESTRAL_PROJECT" id="F9346155-1893-EE5A-496E-A8AF1835FAD6" version="3.5">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:49:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F9346155-1893-EE5A-496E-A8AF1835FAD6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5AAF0C5A-8E6F-1E2D-4B61-6D46DC6AEAE6">
+<designStoragePath>D:\B23Z_BDAS2_SEMESTRAL_PROJECT</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

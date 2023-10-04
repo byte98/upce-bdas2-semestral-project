@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="typy_vozidel_seq" directorySegmentName="seg_0" id="B6CBBA94-1048-E2AE-D477-4045E2EC6E91">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:49:52 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<noCache>YES</noCache>
+<order>YES</order>
+<startWith>1</startWith>
+</SequenceOraclev10g>

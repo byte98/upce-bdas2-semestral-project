@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="109F59AF-B2B7-9E15-A7B0-BDD0D19DC656" name="smeny">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>D413D595-8232-706E-8379-E13DD5878028</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_smena" id="4827355C-F7B5-27A3-6670-802A3794DD3D">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>E6BAACF8-3617-1AFC-C278-A5C692E4F12B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B194ED2-B4A6-11E5-801E-798F24D3FE2B</domain>
+<defaultValue>smeny_seq.nextval</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>smeny_seq</autoIncrementSequenceName>
+</Column>
+<Column name="vozidlo_id_vozidlo" id="ECB6399C-E810-0DBD-6721-B4EEFBD43693">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>4A9E4895-B55E-5364-F246-2FBE1963905B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B194ED2-B4A6-11E5-801E-798F24D3FE2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D99E597A-8DA1-86D6-35E9-A9574B964C9E" referredColumn="A2DEADE1-E52D-DB14-D761-F9022A789D61"/>
+</associations>
+</Column>
+<Column name="zamestnanec_id_osoba" id="676CE894-D1C6-6D81-A3BC-E04DE1B392D8">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>0AEEC226-C268-074C-13AD-AC00173CEF39</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B194ED2-B4A6-11E5-801E-798F24D3FE2B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E19CFD89-FA89-F612-270A-3853F1C0E941" referredColumn="99B02DDB-9679-72F8-5544-A0B199905C71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D8FAA72-D11E-ED7A-2558-7A413FD84DD8" name="smena_pk">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>9EEBE67B-4495-F112-9184-89B470E347F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4827355C-F7B5-27A3-6670-802A3794DD3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E49591-2BF7-CF88-D1B0-8837ED8E9664" name="smena_vozidlo_fk">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECB6399C-E810-0DBD-6721-B4EEFBD43693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C1B467A-F0A5-E6B8-1B7E-6542DB146319" name="smena_zamestnanec_fk">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676CE894-D1C6-6D81-A3BC-E04DE1B392D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

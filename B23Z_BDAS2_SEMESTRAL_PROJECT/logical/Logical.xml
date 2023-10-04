@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F91324EB-8833-A8F3-B90C-385C97AEA104" mainViewID="F8ECBEBA-0EF8-11A2-48C6-4B7C9DB0A05B">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:49:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

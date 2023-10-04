@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4CCD494B-905E-9AC8-0A81-2229549DBF25" containerWithKeyObject="ECA6FCCE-A60A-35BE-7F55-E7D995402841" localFKIndex="483B7088-CED1-CBD4-7A4E-AAAD3B3F2F7A" name="model_vyrobce_fk">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>49B15A23-429C-E4EB-B8E6-C6B8AB785DBC</importedID>
+<referredTableLongName>vyrobci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C13EAA35-D403-BCEC-64A3-7CAE6ABC9859</referredTableID>
+<keyObject>9E50A59D-ECAF-9B88-8F13-150BB782E199</keyObject>
+<referredKeyID>9E50A59D-ECAF-9B88-8F13-150BB782E199</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vyrobce</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

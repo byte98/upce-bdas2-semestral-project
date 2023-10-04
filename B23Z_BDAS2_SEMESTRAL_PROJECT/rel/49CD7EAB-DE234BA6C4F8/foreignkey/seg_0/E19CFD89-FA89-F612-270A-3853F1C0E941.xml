@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E19CFD89-FA89-F612-270A-3853F1C0E941" containerWithKeyObject="109F59AF-B2B7-9E15-A7B0-BDD0D19DC656" localFKIndex="9C1B467A-F0A5-E6B8-1B7E-6542DB146319" name="smena_zamestnanec_fk">
+<sourceDDLFile>B23Z_BDAS2_SEMESTRAL_PROJECT.DDL</sourceDDLFile>
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:50:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<importedID>A58E2F84-C253-1D8A-7A67-252B942E745F</importedID>
+<referredTableLongName>zamestnanci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>839DD60C-5BF0-8BB7-D0B1-E46B925002C7</referredTableID>
+<keyObject>8CBC6A58-4C0F-6FA4-FE82-7D3CFF459953</keyObject>
+<referredKeyID>8CBC6A58-4C0F-6FA4-FE82-7D3CFF459953</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_osoba</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

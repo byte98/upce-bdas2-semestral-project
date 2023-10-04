@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="804DFFAE-1045-947C-498B-53F8F567498F">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-04 12:49:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
