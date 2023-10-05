@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27EDA9BF-C843-31FF-2EF0-86FF5C2DA08E" name="OBEC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:55:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OBEC" id="C135C97A-3DDE-3EC7-0B0E-CE791B3D460D">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:55:30 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="1689269D-5472-280A-52DC-B69A41611C97">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:55:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cast_obce" id="F7EA2624-3F68-69CB-7B4B-6E3C669DBF39">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:56:13 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="psc" id="644F5216-78BE-F5E3-7C4E-AECDD59AD090">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:56:56 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10000</beginValue>
+<endValue>99999</endValue>
+<description>PSC_ROZSAH</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ID_STAT" id="2556FDFD-175E-3C9E-9552-FFBFE68549B4">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 15:45:46 UTC</createdTime>
+<generatorID>FF4BB753-B809-C1E0-DA6D-BDEAE0B8708C</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>363B51D8-8F2C-C117-FC0A-05A591A1C38C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="968E3186-6B59-CDA1-04AD-1CF70F02684C" name="OBEC PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:55:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C135C97A-3DDE-3EC7-0B0E-CE791B3D460D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

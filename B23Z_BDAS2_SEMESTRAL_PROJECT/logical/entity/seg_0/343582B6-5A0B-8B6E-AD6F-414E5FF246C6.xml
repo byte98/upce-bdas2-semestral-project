@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="343582B6-5A0B-8B6E-AD6F-414E5FF246C6" name="PROVOZ">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:21:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROVOZ" id="2FFB88DD-A9EA-3206-8E88-E532D5D336CC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:21:56 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="3B59E831-5703-2CEF-A855-7288B13AA00A">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:22:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servisni_stredisko" id="9A41324B-0498-4444-241D-C1332B4ED99A">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:22:23 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OSOBA" id="0FBB989B-4AEB-C130-130C-DD228330C636">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:33:56 UTC</createdTime>
+<generatorID>E1C1896D-AA3A-ADC4-686A-19CD00358DC8</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>0A16D397-F086-45F9-368D-5CEACDB39459</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ADRESA" id="EDC9BA33-6105-1808-2BDC-2FE11B758C71">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:37:40 UTC</createdTime>
+<generatorID>382EC8A3-F0DF-8E57-C5AA-8762CDB6DE67</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>AB084E60-2E6D-4689-1BE8-76863E29CB89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AB195D2-0C72-F102-C01F-DF9D2D9AF836" name="PROVOZ PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:22:06 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FFB88DD-A9EA-3206-8E88-E532D5D336CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

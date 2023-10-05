@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="ZAMESTNANEC_JE_OSOBA" directorySegmentName="seg_0" id="B95B8D9B-B31D-C79A-ED00-84CCCABF7CA7">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:19:22 UTC</createdTime>
+<ownerDesignName>B22Z_BDAS1_SKODA_SEMESTRAL_PROJECT</ownerDesignName>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>EEF561B6-9EB6-E80F-5FEF-7A6AA57A2798</sourceEntity>
+<targetEntity>F8D4F540-D0FA-A284-2BF5-99477233A995</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

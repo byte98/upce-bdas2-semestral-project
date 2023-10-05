@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_ZASTAVKA_JIZDNI_RAD" directorySegmentName="seg_0" id="0C03E10D-4B84-D7D0-866F-26E22B18287C">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 10:18:10 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>5DFF305A-E4A5-A276-98A1-195CEB0444F9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma urceny</nameOnSource>
+<nameOnTarget>urcuje cas na</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2935DBCA-534D-6ED4-D9BC-ED9B2470CBA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B7BA594-226C-D2C3-C45F-F8145D66C53E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

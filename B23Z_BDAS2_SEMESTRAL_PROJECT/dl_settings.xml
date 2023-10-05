@@ -299,7 +299,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -391,23 +391,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="7E8A4A43-4E95-E202-20E7-2582FF274BBB">
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
-		</model_options>
-		<model_options objectid="49CD7EAB-A16A-3068-B491-DE234BA6C4F8">
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-		</model_options>
-		<model_options objectid="F91324EB-8833-A8F3-B90C-385C97AEA104">
+		<model_options objectid="CA393FDE-7D11-5C54-7B40-034A97307B57">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Attribute" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.EntityView" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
@@ -429,55 +413,5 @@
 			<collection_types value="70"/>
 			<distinct_types value="70"/>
 		</data_types_model_estimates>
-		<relational_model_estimates>
-			<relational_model_0_estimates>
-				<relational_model_name value="Relational_1"/>
-				<tables value="70"/>
-				<views value="70"/>
-				<foreign_keys value="70"/>
-				<schemas value="70"/>
-				<subviews value="70"/>
-				<arcs value="70"/>
-			</relational_model_0_estimates>
-			<relational_model_1_estimates>
-				<relational_model_name value="B23Z_BDAS2_SEMESTRAL_PROJECT"/>
-				<tables value="70"/>
-				<views value="70"/>
-				<foreign_keys value="70"/>
-				<schemas value="70"/>
-				<subviews value="70"/>
-				<arcs value="70"/>
-				<physical_models_estimates>
-							<physical_model_49CD7EAB-A16A-3068-B491-DE234BA6C4F8_Oracle_Database_21c>
-								<physical_model_name value="Oracle Database 21c"/>
-								<clusters value="70"/>
-								<contexts value="70"/>
-								<dBs value="70"/>
-								<dimensions value="70"/>
-								<directories value="70"/>
-								<diskGroups value="70"/>
-								<externalTables value="70"/>
-								<snapshots value="70"/>
-								<roles value="70"/>
-								<rollbackSegments value="70"/>
-								<segments value="70"/>
-								<sequences value="70"/>
-								<storedProcedures value="70"/>
-								<functions value="70"/>
-								<packages value="70"/>
-								<collectionTypes value="70"/>
-								<structuredTypes value="70"/>
-								<synonyms value="70"/>
-								<tables value="70"/>
-								<tableSpaces value="70"/>
-								<temporaryTableSpaces value="70"/>
-								<undoTableSpaces value="70"/>
-								<users value="70"/>
-								<views value="70"/>
-								<triggers value="70"/>
-							</physical_model_49CD7EAB-A16A-3068-B491-DE234BA6C4F8_Oracle_Database_21c>
-				</physical_models_estimates>
-			</relational_model_1_estimates>
-		</relational_model_estimates>
 	</design_estimates>
 </settings>

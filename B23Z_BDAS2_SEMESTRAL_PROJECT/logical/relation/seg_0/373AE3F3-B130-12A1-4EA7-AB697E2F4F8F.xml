@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_VYROBCE_ADRESA" directorySegmentName="seg_0" id="373AE3F3-B130-12A1-4EA7-AB697E2F4F8F">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:19:22 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>BD7B667B-F3DB-1A36-ACF2-5ECCF40425D9</sourcePk>
+<targetPk>A8FAA0EC-EF18-CBAC-1C28-65214BD5EF3B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>sidli na</nameOnSource>
+<nameOnTarget>se nachazi</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0C323E8C-D366-0399-8008-2427AD854885</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A292A0AD-1C68-0CA5-A5B9-822374D8F0D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

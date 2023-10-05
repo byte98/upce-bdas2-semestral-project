@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8D4F540-D0FA-A284-2BF5-99477233A995" name="ZAMESTNANEC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:17:44 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EEF561B6-9EB6-E80F-5FEF-7A6AA57A2798</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="osobni_cislo" id="B107B80D-52A4-6661-82F9-AD4A3ABC2052">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:17:51 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_nastupu" id="C7D79623-2F7D-177C-4902-DFDA62C544E4">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:18:54 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OSOBA" id="ADF2A5C2-3460-712C-B776-33CFA3A3E80A">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:30:39 UTC</createdTime>
+<generatorID>BE976C22-CF8F-5351-2E2B-5B56182B6672</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>0A16D397-F086-45F9-368D-5CEACDB39459</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ADRESA" id="2FAE36EF-248D-1FE0-CC6A-1C9DDED3F125">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:35:19 UTC</createdTime>
+<generatorID>4EDB35AB-B9F9-59C1-BF1B-07162486C177</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>AB084E60-2E6D-4689-1BE8-76863E29CB89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UZIVATEL" id="59E42526-B84C-1ACF-3EF9-09119659BABD">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 15:31:11 UTC</createdTime>
+<generatorID>BED5AE57-4531-D23D-E558-89817804D911</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>BFB068C2-A71A-B699-02DA-D074BAF0F0F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99DAB400-AED9-967F-7C3F-19ABD9C57FFF" name="OSOBNI_CISLO_UQ">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:18:14 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<newElementsIDs>B107B80D-52A4-6661-82F9-AD4A3ABC2052</newElementsIDs>
+<usedAttributes>
+<attributeRef>B107B80D-52A4-6661-82F9-AD4A3ABC2052</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

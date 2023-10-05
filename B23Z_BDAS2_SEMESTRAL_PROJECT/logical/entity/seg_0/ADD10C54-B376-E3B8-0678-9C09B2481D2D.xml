@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADD10C54-B376-E3B8-0678-9C09B2481D2D" name="LINKA">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:46:50 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LINKA" id="85C51D67-1CA6-3DBF-02FC-6C73198D4376">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:46:59 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kod" id="D4826AB3-413D-AFF8-3A1B-66CB4D853CB9">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:47:11 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A40C9170-464D-1632-8D06-1C1039FBAD14" name="LINKA PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:47:00 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85C51D67-1CA6-3DBF-02FC-6C73198D4376</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="709D1920-51E1-E7C9-A43F-9CD127053076" name="KOD_UQ">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:47:35 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<newElementsIDs>D4826AB3-413D-AFF8-3A1B-66CB4D853CB9</newElementsIDs>
+<usedAttributes>
+<attributeRef>D4826AB3-413D-AFF8-3A1B-66CB4D853CB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_AUTOBUS_PREVODOVKA" directorySegmentName="seg_0" id="2A307333-B5AA-B2F2-9F4D-B9FD319848A6">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 14:59:06 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<targetPk>1EE322EC-EB81-5C25-555A-DFD4E607C705</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je namontovana</nameOnSource>
+<nameOnTarget>ma namontovanu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AB70A0E6-0534-E39A-CD55-F8C119A377E4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>38DA4C71-D064-50A5-ADD7-EF2903CF4722</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

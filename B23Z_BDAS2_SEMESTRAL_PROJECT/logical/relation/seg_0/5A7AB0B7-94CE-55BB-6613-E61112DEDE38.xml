@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_VYROBCE_OSOBA" directorySegmentName="seg_0" id="5A7AB0B7-94CE-55BB-6613-E61112DEDE38">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 08:39:43 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>BD7B667B-F3DB-1A36-ACF2-5ECCF40425D9</sourcePk>
+<targetPk>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ma kontaktni osobu</nameOnSource>
+<nameOnTarget>je kontaktni osobou</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0C323E8C-D366-0399-8008-2427AD854885</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EEF561B6-9EB6-E80F-5FEF-7A6AA57A2798</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

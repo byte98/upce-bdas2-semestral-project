@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2935DBCA-534D-6ED4-D9BC-ED9B2470CBA0" name="ZASTAVKA">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:23:07 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ZASTAVKA" id="3C50493B-E5FE-3D3E-4943-F665B4A697AA">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:23:13 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="76F10DA4-3BEE-9D04-EB5D-6D3BBA187B23">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-26 09:55:57 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GPS_severni_sirka" id="90C8ED84-8F70-59A7-0E04-CA106C2AB784">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:44:08 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GPS_vychodni_delka" id="0BAFFAA2-BCF7-4ECA-C104-86ED0165E4F7">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:44:36 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kod" id="250BE697-FB9A-9DF0-CF43-5B2267C20CAC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:44:51 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bezbarierova" id="C6F004F6-EA0D-1B27-D039-3C7672FA1C4B">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:45:49 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="na_znameni" id="E2A74432-8D68-B46C-B616-1489240EC513">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:46:15 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DFF305A-E4A5-A276-98A1-195CEB0444F9" name="ZASTAVKA PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:44:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C50493B-E5FE-3D3E-4943-F665B4A697AA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1A56DFE0-0E42-E6A3-9A3F-4F6BD8051B6B" name="KOD_UQ">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:45:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<newElementsIDs>250BE697-FB9A-9DF0-CF43-5B2267C20CAC</newElementsIDs>
+<usedAttributes>
+<attributeRef>250BE697-FB9A-9DF0-CF43-5B2267C20CAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

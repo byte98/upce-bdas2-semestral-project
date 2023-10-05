@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C323E8C-D366-0399-8008-2427AD854885" name="VYROBCE">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:35:11 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VYROBCE" id="8AD3E850-0B69-EBF5-8C58-3CADFC1CD092">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:35:22 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="22517C92-177E-22F9-C519-137E1F6F46FE">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:35:35 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ADRESA" id="261BFD7F-1F2C-CF01-842D-D833B611D3F8">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:20:31 UTC</createdTime>
+<generatorID>373AE3F3-B130-12A1-4EA7-AB697E2F4F8F</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>AB084E60-2E6D-4689-1BE8-76863E29CB89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OSOBA" id="47849C42-C954-F76A-3A00-AF109DD43FCA">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 08:40:07 UTC</createdTime>
+<generatorID>5A7AB0B7-94CE-55BB-6613-E61112DEDE38</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A16D397-F086-45F9-368D-5CEACDB39459</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD7B667B-F3DB-1A36-ACF2-5ECCF40425D9" name="VYROBCE PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:35:34 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AD3E850-0B69-EBF5-8C58-3CADFC1CD092</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

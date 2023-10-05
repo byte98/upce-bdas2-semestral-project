@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEF561B6-9EB6-E80F-5FEF-7A6AA57A2798" name="OSOBA">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:36:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OSOBA" id="0A16D397-F086-45F9-368D-5CEACDB39459">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:36:19 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="4198A89A-B18A-6AE4-7B61-1B47D4E2FC74">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:36:25 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="5B5E4F7C-557E-5CC9-5A7F-DD75439FC9A7">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:36:54 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_mail" id="6D118516-BF10-6592-4EC4-E6E18606D0BC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:37:05 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="384E2781-6B85-5AB5-DB77-48EAC608BB3A">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:38:10 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C6A3F46-C2A2-5A08-315D-F4830B7B265E" name="OSOBA PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 06:36:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A16D397-F086-45F9-368D-5CEACDB39459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

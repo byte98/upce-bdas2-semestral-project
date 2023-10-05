@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B7BA594-226C-D2C3-C45F-F8145D66C53E" name="JIZDNI_RAD">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:52:57 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_JIZDNI_RAD" id="1E6BAA8A-379B-1AC5-CEEE-DFFEB8CCF358">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:53:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas_prijezdu" id="F8769BE5-8860-3352-9233-30578BE6D503">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:55:38 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas_odjezdu" id="E4AFE65C-1D64-7BBF-30E8-6D3C6B50C939">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:55:54 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poradove_cislo" id="24FC58FC-DE1A-D268-C5EC-C814F3E06267">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:56:18 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="varianta" id="7B3C6444-A55C-DE7A-CD37-8E6F4BCC2DE4">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-26 14:01:00 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LINKA" id="334F2097-12F3-1D13-EDD7-3554C48E61C6">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 10:16:56 UTC</createdTime>
+<generatorID>A7D503E2-49CC-928C-00C8-A4F791B1049D</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>85C51D67-1CA6-3DBF-02FC-6C73198D4376</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZASTAVKA" id="14E9458D-9FAD-035F-FE31-32D576CA7402">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-27 13:25:31 UTC</createdTime>
+<generatorID>0C03E10D-4B84-D7D0-866F-26E22B18287C</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>3C50493B-E5FE-3D3E-4943-F665B4A697AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7A104A8-6E37-5C51-4CF3-0002CA9B7C84" name="JIZDNI_RAD PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:53:15 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E6BAA8A-379B-1AC5-CEEE-DFFEB8CCF358</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

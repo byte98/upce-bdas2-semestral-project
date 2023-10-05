@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52B48C3A-04B6-3109-0B22-8E55E71BDFA9" name="SKUTECNY_RAD">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:42:49 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SKUTECNY_RAD" id="7FC335D6-A4E1-872F-931B-CAA40F332ADC">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:43:05 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas_prijezdu" id="51106E3C-497C-03AB-CAE6-EB7E08C07B06">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:43:20 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas_odjezdu" id="D90053A2-4753-D6CE-B79F-BBC2E0BC852F">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:43:38 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZASTAVKA" id="B4E322C9-E031-52A2-8C29-37C78D7A6D8F">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:53:03 UTC</createdTime>
+<generatorID>D7A749F2-A7A0-3424-60CE-E8AA40C1D33C</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>3C50493B-E5FE-3D3E-4943-F665B4A697AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_JIZDNI_RAD" id="48BF3EFF-55C4-3949-74C8-F7DCDDCBA707">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-28 08:25:42 UTC</createdTime>
+<generatorID>927FD083-1BD7-E4C6-0CBD-29408F99E2AF</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>1E6BAA8A-379B-1AC5-CEEE-DFFEB8CCF358</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SMENA" id="8437BC21-AF79-E105-4E41-562E0431165F">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-28 08:27:41 UTC</createdTime>
+<generatorID>2117C424-495F-0620-CBAA-B1377BB9AA25</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>69401E86-361F-5CC8-2CDB-F26115F685AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E10E347-8F1E-0E58-129F-D5CF57C1059D" name="SKUTECNY_RAD PK">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 11:43:19 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FC335D6-A4E1-872F-931B-CAA40F332ADC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

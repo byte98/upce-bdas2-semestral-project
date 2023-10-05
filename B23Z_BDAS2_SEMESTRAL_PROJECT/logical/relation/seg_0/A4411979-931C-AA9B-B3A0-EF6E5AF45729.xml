@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_ZAMESTNANEC_KARTA" directorySegmentName="seg_0" id="A4411979-931C-AA9B-B3A0-EF6E5AF45729">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:28:41 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je drzitelem</nameOnSource>
+<nameOnTarget>je pridelena</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8D4F540-D0FA-A284-2BF5-99477233A995</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>56303BC4-54B2-0D5A-552D-48D21E6BE785</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

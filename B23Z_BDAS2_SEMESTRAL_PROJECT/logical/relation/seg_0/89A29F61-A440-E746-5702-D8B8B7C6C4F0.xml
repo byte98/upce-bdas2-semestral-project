@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_UZIVATEL_ROLE" directorySegmentName="seg_0" id="89A29F61-A440-E746-5702-D8B8B7C6C4F0">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 15:25:28 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<targetPk>E9D8B204-E143-7621-B1ED-CDF42AA74861</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8FEEE2AB-BA84-81DE-F627-672324ABBCB3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EB6BCE25-FB47-244F-6911-327949FF7D0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

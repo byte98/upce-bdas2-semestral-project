@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F91324EB-8833-A8F3-B90C-385C97AEA104" mainViewID="F8ECBEBA-0EF8-11A2-48C6-4B7C9DB0A05B">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CA393FDE-7D11-5C54-7B40-034A97307B57" mainViewID="2B3B0A34-2BF4-0207-A1CE-A1841836CDBB">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-04 12:49:03 UTC</createdTime>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<createdTime>2022-10-17 14:35:04 UTC</createdTime>
+<ownerDesignName>B22Z_BDAS1_SKODA_SEMESTRAL_PROJECT</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

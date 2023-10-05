@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2161E3C-F02C-EA94-E521-A192908694FA" name="METRO">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:13:29 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>ECDB7BF3-DFA9-6140-76F4-A4118227A894</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pocet_vozu" id="E80A9C87-93F1-0532-9E9B-E168B97BACE2">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:13:41 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZABEZPECOVAC" id="05323C48-2B0E-3C69-1738-F63EFF7901E9">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-05 08:44:09 UTC</createdTime>
+<generatorID>F6976228-540A-4BDE-3CD4-86ECFF61ED36</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referedAttribute>EEF5C9C3-1848-710E-9B4E-825FB5307FCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

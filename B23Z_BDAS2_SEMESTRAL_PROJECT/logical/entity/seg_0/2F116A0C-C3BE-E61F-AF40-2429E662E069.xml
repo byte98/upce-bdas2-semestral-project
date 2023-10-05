@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F116A0C-C3BE-E61F-AF40-2429E662E069" name="TROLEJBUS">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:16:41 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>ECDB7BF3-DFA9-6140-76F4-A4118227A894</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trakcni_baterie" id="9C00ED25-7366-9B18-506E-824A620CF820">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:16:46 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kloubovy" id="DEBE80D5-E7C7-02A5-2F29-E46E0DCF15F4">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 07:16:59 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

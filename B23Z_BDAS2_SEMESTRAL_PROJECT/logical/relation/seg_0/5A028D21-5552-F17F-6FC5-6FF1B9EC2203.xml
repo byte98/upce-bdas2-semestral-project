@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_VOZIDLO_MODEL" directorySegmentName="seg_0" id="5A028D21-5552-F17F-6FC5-6FF1B9EC2203">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 08:26:55 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>1EE322EC-EB81-5C25-555A-DFD4E607C705</sourcePk>
+<targetPk>CAFDF9AB-8AB3-4176-4EE5-3D3AA27F7BA1</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je vyroben jako</nameOnSource>
+<nameOnTarget>byl dodan jako</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ECDB7BF3-DFA9-6140-76F4-A4118227A894</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5959DDAC-9037-5DD7-FCB5-159102A0C6A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

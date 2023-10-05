@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_32" directorySegmentName="seg_0" id="6D295A54-04C4-BEC4-858F-E7AD2606D2EF">
+<createdBy>skoda</createdBy>
+<createdTime>2022-11-02 10:22:54 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>1EE322EC-EB81-5C25-555A-DFD4E607C705</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>bude nasazeno</nameOnSource>
+<nameOnTarget>ma pridelene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECDB7BF3-DFA9-6140-76F4-A4118227A894</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D8070E3E-C8C5-4B18-2225-3570ED7AD1C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

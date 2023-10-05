@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_SMENA_SKUTECNY_RAD" directorySegmentName="seg_0" id="2117C424-495F-0620-CBAA-B1377BB9AA25">
+<createdBy>skoda</createdBy>
+<createdTime>2022-12-28 08:27:41 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>0D79DD91-7A8E-A096-AE94-AA7D382B4830</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>byla ve skutecnosti</nameOnSource>
+<nameOnTarget>byl projet v ramci</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8070E3E-C8C5-4B18-2225-3570ED7AD1C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>52B48C3A-04B6-3109-0B22-8E55E71BDFA9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
