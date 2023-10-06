@@ -3,8 +3,13 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 09:52:58 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <sourcePk>8434A058-2C23-E783-F29B-EB129B1F54C3</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>urcuje</nameOnSource>
+<nameOnTarget>je ve</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
