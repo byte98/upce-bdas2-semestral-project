@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FD54205-7871-AFE2-5687-3F44C982D5A3" name="ADRESY">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>A292A0AD-1C68-0CA5-A5B9-822374D8F0D4</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>adresa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADRESA" id="D01DB461-BBFC-CABB-EA5F-5F304BF37738">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>AB084E60-2E6D-4689-1BE8-76863E29CB89</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulice" id="BBB51740-0E9E-12A2-8E66-3776335A2880">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>053AD892-08AE-6696-A1FE-B28A727106C6</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cislo_popisne" id="FA6654D0-4C0B-17E7-5360-1E5C25889664">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>0857D71A-F244-5C10-653D-3EB52CC7C764</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cislo_orientacni" id="D012C148-6F9D-6915-DF1D-0A2D058C48CF">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>3928F40D-82FE-30DA-8A07-518E9ED73FC4</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obec" id="7E0AD30A-1CB5-1C21-A771-8AB5B595DE99">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>0A0BA592-D363-0AAA-D57F-73B1E79AC714</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3AA016C-4A07-C5D4-E8EB-BCD9A3A2B560" referredColumn="DFA795B2-4C55-5761-4637-1BACE5EC35BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11634B7C-30D0-9C94-A866-EC068DD8E53B" name="ADRESY_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>A8FAA0EC-EF18-CBAC-1C28-65214BD5EF3B</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D01DB461-BBFC-CABB-EA5F-5F304BF37738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEC50F60-1499-07BE-0692-E2228A73B9E8" name="ADRESY_OBCE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>36F38437-0926-C635-32FB-234C375E020F</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0AD30A-1CB5-1C21-A771-8AB5B595DE99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

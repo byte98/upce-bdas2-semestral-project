@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="87DD5EC2-E2A6-7482-51C2-89EB165DAD0F" name="VOZIDLA_ARC">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>649A23A6-9B3B-FFC2-78C2-053C405943BE</table>
+<discriminatorColumn>21544A67-BFC2-66CE-37F6-7C0C9FB7314D</discriminatorColumn>
+<fkeys>
+<fkeyID>0FE1ECCD-3567-C262-4260-E21731313396</fkeyID>
+<fkeyID>C1E61189-8A90-CD85-8E5B-464E0B287AD9</fkeyID>
+<fkeyID>537EFCAB-C5C2-6CF8-719D-F1DBA34B6EE7</fkeyID>
+<fkeyID>D61B40E0-ACED-FEEE-9150-C11C356103C6</fkeyID>
+</fkeys>
+</FKArc>

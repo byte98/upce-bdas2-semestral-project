@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="2F53BF68-11A2-1764-8416-EAFD1A7F15ED">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 09:52:58 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<sourcePk>8434A058-2C23-E783-F29B-EB129B1F54C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0ADC4E06-75EC-6CC1-6B5D-A07CD1A63809</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8FEEE2AB-BA84-81DE-F627-672324ABBCB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

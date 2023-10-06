@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="250244ED-B2AF-3268-ADB2-E04E26F36EF7" name="OSOBY">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>EEF561B6-9EB6-E80F-5FEF-7A6AA57A2798</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>osoba</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OSOBA" id="D234F6A1-73D3-C54D-4E1F-858E2654522E">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>0A16D397-F086-45F9-368D-5CEACDB39459</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmeno" id="39AE6649-F30C-C543-6CD6-6F55EDFF4141">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>4198A89A-B18A-6AE4-7B61-1B47D4E2FC74</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="55AFC832-FADE-7540-91C6-39811A0ECAEB">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>5B5E4F7C-557E-5CC9-5A7F-DD75439FC9A7</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_mail" id="9B27D18C-4BF3-C4A2-0D91-5875DEAA91B7">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>6D118516-BF10-6592-4EC4-E6E18606D0BC</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="056A2F71-961D-E07B-00C0-BF5BDB754363">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>384E2781-6B85-5AB5-DB77-48EAC608BB3A</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BA7E475-4A99-6E64-6F73-F234891008D8" name="OSOBY_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D234F6A1-73D3-C54D-4E1F-858E2654522E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

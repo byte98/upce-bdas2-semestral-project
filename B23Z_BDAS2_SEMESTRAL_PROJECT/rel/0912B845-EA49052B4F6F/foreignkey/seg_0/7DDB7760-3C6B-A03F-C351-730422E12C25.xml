@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DDB7760-3C6B-A03F-C351-730422E12C25" containerWithKeyObject="649A23A6-9B3B-FFC2-78C2-053C405943BE" localFKIndex="C8C55BE1-0F04-D59B-7F84-C702FECABCDB" name="VOZIDLO_MODEL_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>5A028D21-5552-F17F-6FC5-6FF1B9EC2203</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>MODEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>470913CE-84B4-A404-0F14-438357DD9CC3</referredTableID>
+<keyObject>1EA95B41-F092-EF38-656F-E33F14812ED7</keyObject>
+<referredKeyID>1EA95B41-F092-EF38-656F-E33F14812ED7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODEL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

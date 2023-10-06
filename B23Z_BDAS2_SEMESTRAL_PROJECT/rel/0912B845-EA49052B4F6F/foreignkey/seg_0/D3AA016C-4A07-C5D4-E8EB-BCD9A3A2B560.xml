@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3AA016C-4A07-C5D4-E8EB-BCD9A3A2B560" containerWithKeyObject="3FD54205-7871-AFE2-5687-3F44C982D5A3" localFKIndex="CEC50F60-1499-07BE-0692-E2228A73B9E8" name="ADRESY_OBCE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>36F38437-0926-C635-32FB-234C375E020F</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>OBEC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A902886-0284-DF0F-6B7E-7EDDA67CE380</referredTableID>
+<keyObject>29E04B58-5A21-78C1-4AEF-5A8851BFBAA3</keyObject>
+<referredKeyID>29E04B58-5A21-78C1-4AEF-5A8851BFBAA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OBEC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

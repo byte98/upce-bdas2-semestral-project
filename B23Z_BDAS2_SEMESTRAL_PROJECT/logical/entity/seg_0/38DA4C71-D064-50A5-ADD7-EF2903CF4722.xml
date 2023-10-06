@@ -3,6 +3,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:15:56 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,11 +20,29 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:16:22 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PREVODOVKA" id="449BE085-F964-AD0E-9497-6FB753270095">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:42:37 UTC</createdTime>
+<generatorID>2A307333-B5AA-B2F2-9F4D-B9FD319848A6</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3EBE2181-936B-87E2-233E-77838F8A608E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

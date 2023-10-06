@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4576B7F9-D85B-8285-DE05-8318A5052B07" name="AUTOBUSY">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>38DA4C71-D064-50A5-ADD7-EF2903CF4722</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>autobus</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VOZIDLO" id="A2199052-F455-E65B-4024-95D32DB8FBCA">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>5F5D74FA-D0E8-E251-17A1-844702B1C680</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="537EFCAB-C5C2-6CF8-719D-F1DBA34B6EE7" referredColumn="9014D729-4A37-92A4-7377-A63E96654192"/>
+</associations>
+</Column>
+<Column name="kloubovy" id="B53441DC-1514-2730-A68A-4E50C5A7A959">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>8D68F944-1119-0E3A-0546-DD8765D410F8</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prevodovka" id="369BEEF2-AA0C-5349-4224-FF6F5485D549">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>449BE085-F964-AD0E-9497-6FB753270095</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="392E558C-976C-43AC-EC1A-F043C6F517B7" referredColumn="DAC906E8-2A2F-2D66-D475-96640BE30ACD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C5EF488-BB35-7A1E-61B4-1AEB237775C6" name="AUTOBUS_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>1EE322EC-EB81-5C25-555A-DFD4E607C705</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2199052-F455-E65B-4024-95D32DB8FBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFFC7454-A1DA-CD8B-854A-8E2A5273355F" name="AUTOBUS_VOZIDLO_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>DD7DC167-5D7F-8B61-54D9-9229BE22E8BB</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2199052-F455-E65B-4024-95D32DB8FBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5F09B54-3313-F7BC-202F-0B990CE17D7D" name="AUTOBUS_PREVODOVKA_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>2A307333-B5AA-B2F2-9F4D-B9FD319848A6</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="369BEEF2-AA0C-5349-4224-FF6F5485D549"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

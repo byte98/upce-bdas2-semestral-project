@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1E61189-8A90-CD85-8E5B-464E0B287AD9" containerWithKeyObject="6DAE68FD-9DA6-C7A7-C494-B4467F512F6F" localFKIndex="85286E2D-88A3-F711-2653-2E2E72A5827A" name="TRAMVAJ_VOZIDLO_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>D6F4D52E-CACC-27C1-A593-07D4D8EF307F</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>VOZIDLA</referredTableLongName>
+<arc>87DD5EC2-E2A6-7482-51C2-89EB165DAD0F</arc>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>649A23A6-9B3B-FFC2-78C2-053C405943BE</referredTableID>
+<keyObject>68FBB1E4-AC19-E1C2-25A1-88A96456C210</keyObject>
+<referredKeyID>68FBB1E4-AC19-E1C2-25A1-88A96456C210</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VOZIDLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>&apos;TRA&apos;</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

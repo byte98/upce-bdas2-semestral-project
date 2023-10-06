@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFEB0458-13DA-EA5D-DBC4-35B028F247A0" containerWithKeyObject="21A35306-F073-EB7C-2BD9-0206FA2EE9F0" localFKIndex="B479BB20-FA0F-A2CA-C444-55EBD1B0BEBE" name="JIZDNI_RADY_ZASTAVKA_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>0C03E10D-4B84-D7D0-866F-26E22B18287C</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>ZASTAVKA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FDA3031-0332-8373-196B-00D5112F050B</referredTableID>
+<keyObject>97F8480B-66BC-EFE5-B340-DD251E868FB3</keyObject>
+<referredKeyID>97F8480B-66BC-EFE5-B340-DD251E868FB3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZASTAVKA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

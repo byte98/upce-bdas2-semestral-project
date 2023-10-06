@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4C4AFE1-6A65-F091-14F7-C4B8A52CA003" name="PLANY_SMEN">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>rel_smena_jizdni_rad</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="smena" id="63A4E0FB-77F1-956B-093E-01D9FDD0878C">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F56D4149-4F48-C66C-AA0D-C262922D9DE1" referredColumn="0AFD679B-F9AA-3126-13CA-156CBB7CCFEC"/>
+</associations>
+</Column>
+<Column name="jizdni_rad" id="9F809414-EC89-0D13-0778-825410864AF5">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29785C4C-AA00-B57C-B5D2-9EC804E91BEE" referredColumn="CBF077FC-D5D8-5B47-F72E-00EDC6184AC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8C87AC7-5706-CCE3-7DE2-0EAA2AF6EF10" name="REL_SMENA_JIZDNI_RAD_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63A4E0FB-77F1-956B-093E-01D9FDD0878C"/>
+<colUsage columnID="9F809414-EC89-0D13-0778-825410864AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5C4BEB3-8352-9DCD-AD51-7AF0A7B94512" name="REL_SMENA_JIZDNI_RAD_SMENA_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>76CA0299-7512-4569-6E87-B6CA95DDF3A5</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63A4E0FB-77F1-956B-093E-01D9FDD0878C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0844788B-D069-F42E-E4F6-9872C31F21E3" name="REL_SMENA_JIZDNI_RAD_JIZDNI_RAD_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>76CA0299-7512-4569-6E87-B6CA95DDF3A5</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F809414-EC89-0D13-0778-825410864AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

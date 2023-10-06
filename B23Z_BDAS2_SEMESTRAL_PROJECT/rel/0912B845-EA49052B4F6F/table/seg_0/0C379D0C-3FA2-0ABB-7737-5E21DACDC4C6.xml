@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C379D0C-3FA2-0ABB-7737-5E21DACDC4C6" name="ZAMESTNANCI">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>F8D4F540-D0FA-A284-2BF5-99477233A995</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>zamestnanec</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAMESTNANEC" id="66499D00-4DFC-5D13-4A27-E96FB21DDACB">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 11:50:02 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osobni_cislo" id="A6D2A86B-79A2-5EBD-2A79-6B1B6FF27F2A">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>B107B80D-52A4-6661-82F9-AD4A3ABC2052</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<constraintName>OSOBNI_CISLO_SESTIMISTNE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>100000</beginValue>
+<endValue>999999</endValue>
+<description>Sestimistna cisla</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="datum_nastupu" id="45206155-8F41-A7B6-385C-0937EA6A2886">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>C7D79623-2F7D-177C-4902-DFDA62C544E4</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bydliste" id="08B9B416-26CB-BD7C-8050-1217C0D4486F">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>2FAE36EF-248D-1FE0-CC6A-1C9DDED3F125</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A66124F2-0726-42C1-7E89-54B64055696A" referredColumn="D01DB461-BBFC-CABB-EA5F-5F304BF37738"/>
+</associations>
+</Column>
+<Column name="uzivatelsky_ucet" id="161772C7-E953-65B0-FBFA-09FB10E1E1D7">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>59E42526-B84C-1ACF-3EF9-09119659BABD</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B423E6F-744C-BD99-5094-4E018F0A2D41" referredColumn="CEE1747C-62D6-3C81-6CFC-0035F6276739"/>
+</associations>
+</Column>
+<Column name="osobni_udaje" id="D942A8C1-2FDF-FA8B-6A50-1A8748D8BB3C">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 12:00:37 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C356972F-1E27-1A73-C0EB-F413F98B52EC" referredColumn="D234F6A1-73D3-C54D-4E1F-858E2654522E"/>
+</associations>
+</Column>
+<Column name="nadrizeny" id="173EB027-6DF7-5CEF-7F50-EC645173094A">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 12:18:32 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8CB7535-A9FA-DDD3-1ED4-23E7A1DA9DB3" referredColumn="66499D00-4DFC-5D13-4A27-E96FB21DDACB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3C77696-38FA-5AAC-BF6F-A479C8CF08F8" name="ZAMESTNANEC_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66499D00-4DFC-5D13-4A27-E96FB21DDACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A20AA4-B239-742E-8D38-3C161951F4DF" name="ZAMESTNANEC_osobni_cislo_UN">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>99DAB400-AED9-967F-7C3F-19ABD9C57FFF</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6D2A86B-79A2-5EBD-2A79-6B1B6FF27F2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F226411-BC7B-600C-EFCE-CA5AB1822581" name="ZAMESTNANEC_OSOBA_UN">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 12:01:13 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D942A8C1-2FDF-FA8B-6A50-1A8748D8BB3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00252851-7C6E-AF0C-E1EB-C038FF772367" name="ZAMESTNANEC_UZIVATEL_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>BED5AE57-4531-D23D-E558-89817804D911</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="161772C7-E953-65B0-FBFA-09FB10E1E1D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="171E0BA5-86A7-ED4D-CC4C-565F2859AA70" name="ZAMESTNANEC_ADRESA_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>4EDB35AB-B9F9-59C1-BF1B-07162486C177</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08B9B416-26CB-BD7C-8050-1217C0D4486F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84E01CCC-DE14-32FA-1D0C-F2D9D8D91ECF" name="ZAMESTNANEC_OSOBY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 12:00:37 UTC</createdTime>
+<generatorID>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D942A8C1-2FDF-FA8B-6A50-1A8748D8BB3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC22E1BE-341D-A559-767E-BDCC5A963415" name="ZAMESTNANCI_ZAMESTNANCI_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 12:18:32 UTC</createdTime>
+<generatorID>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="173EB027-6DF7-5CEF-7F50-EC645173094A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

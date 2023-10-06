@@ -3,15 +3,18 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 14:59:06 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<targetPk>1EE322EC-EB81-5C25-555A-DFD4E607C705</targetPk>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<sourcePk>109510DD-4ABE-EC92-D762-BA7C8665E26E</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>je namontovana</nameOnSource>
 <nameOnTarget>ma namontovanu</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>AB70A0E6-0534-E39A-CD55-F8C119A377E4</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>38DA4C71-D064-50A5-ADD7-EF2903CF4722</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

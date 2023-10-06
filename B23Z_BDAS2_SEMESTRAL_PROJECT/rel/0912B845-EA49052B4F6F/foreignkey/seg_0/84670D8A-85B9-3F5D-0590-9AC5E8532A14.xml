@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84670D8A-85B9-3F5D-0590-9AC5E8532A14" containerWithKeyObject="21A35306-F073-EB7C-2BD9-0206FA2EE9F0" localFKIndex="136EFB9E-CAF7-98F8-6C31-2DD36D3FE627" name="JIZDNI_RADY_LINKY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>A7D503E2-49CC-928C-00C8-A4F791B1049D</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>LINKA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CCD66EA-2424-D0BD-84BD-EDE7B3AF11D6</referredTableID>
+<keyObject>C4C07233-F5A3-83B8-B655-7B66C8F2F788</keyObject>
+<referredKeyID>C4C07233-F5A3-83B8-B655-7B66C8F2F788</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LINKA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

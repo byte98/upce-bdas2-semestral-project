@@ -3,6 +3,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:17:44 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:17:51 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -26,6 +32,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:18:54 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -36,6 +45,9 @@
 <createdTime>2022-11-02 08:30:39 UTC</createdTime>
 <generatorID>BE976C22-CF8F-5351-2E2B-5B56182B6672</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <referedAttribute>0A16D397-F086-45F9-368D-5CEACDB39459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,6 +59,9 @@
 <createdTime>2022-11-02 08:35:19 UTC</createdTime>
 <generatorID>4EDB35AB-B9F9-59C1-BF1B-07162486C177</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <referedAttribute>AB084E60-2E6D-4689-1BE8-76863E29CB89</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,6 +73,9 @@
 <createdTime>2023-10-05 15:31:11 UTC</createdTime>
 <generatorID>BED5AE57-4531-D23D-E558-89817804D911</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <referedAttribute>BFB068C2-A71A-B699-02DA-D074BAF0F0F0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,6 +88,10 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:18:14 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="false"/>
+</engineerTo>
 <newElementsIDs>B107B80D-52A4-6661-82F9-AD4A3ABC2052</newElementsIDs>
 <usedAttributes>
 <attributeRef>B107B80D-52A4-6661-82F9-AD4A3ABC2052</attributeRef>

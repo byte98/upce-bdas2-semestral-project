@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB70A0E6-0534-E39A-CD55-F8C119A377E4" name="PREVODOVKA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0ADC4E06-75EC-6CC1-6B5D-A07CD1A63809" name="STAV">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-05 14:57:25 UTC</createdTime>
+<createdTime>2023-10-06 09:51:55 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<engineerTo>
-<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,25 +12,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PREVODOVKA" id="3EBE2181-936B-87E2-233E-77838F8A608E">
+<Attribute name="ID_STAV" id="DDC6E744-8FC4-D4BB-B0F4-016DA0A7684A">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-05 15:30:22 UTC</createdTime>
+<createdTime>2023-10-06 09:52:02 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<engineerTo>
-<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nazev" id="65C2CBB5-8F90-0711-3257-51F1BCFCDAC9">
+<Attribute name="nazev" id="572F83EF-BE09-8553-3C1D-7CBC6478330C">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-05 14:57:43 UTC</createdTime>
+<createdTime>2023-10-06 09:52:17 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<engineerTo>
-<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -42,16 +33,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="109510DD-4ABE-EC92-D762-BA7C8665E26E" name="PREVODOVKA PK">
+<identifier id="8434A058-2C23-E783-F29B-EB129B1F54C3" name="STAV PK">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-05 15:30:41 UTC</createdTime>
+<createdTime>2023-10-06 09:52:15 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<engineerTo>
-<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3EBE2181-936B-87E2-233E-77838F8A608E</attributeRef>
+<attributeRef>DDC6E744-8FC4-D4BB-B0F4-016DA0A7684A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

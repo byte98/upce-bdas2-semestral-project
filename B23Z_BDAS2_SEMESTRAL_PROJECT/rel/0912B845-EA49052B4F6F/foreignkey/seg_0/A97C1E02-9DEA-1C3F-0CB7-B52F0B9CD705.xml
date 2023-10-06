@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A97C1E02-9DEA-1C3F-0CB7-B52F0B9CD705" containerWithKeyObject="649A23A6-9B3B-FFC2-78C2-053C405943BE" localFKIndex="0A138D43-3AA9-FE9D-2186-D7EC9A0DF471" name="VOZIDLO_PROVOZ_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>6B708EE5-E6A2-4FF3-879B-91C0E1DABDDC</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>PROVOZ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57C35F94-77B8-57B6-879D-3B0F9FB9046E</referredTableID>
+<keyObject>9EE33094-090E-5361-053A-02A2BCB466CD</keyObject>
+<referredKeyID>9EE33094-090E-5361-053A-02A2BCB466CD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PROVOZ</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

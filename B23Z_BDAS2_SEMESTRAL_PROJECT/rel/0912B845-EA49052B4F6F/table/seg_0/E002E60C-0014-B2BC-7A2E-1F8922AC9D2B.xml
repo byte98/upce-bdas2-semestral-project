@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E002E60C-0014-B2BC-7A2E-1F8922AC9D2B" name="SOUPRAVY_METRA">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>F2161E3C-F02C-EA94-E521-A192908694FA</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>metro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VOZIDLO" id="9767A885-2BFC-69F3-294D-FCCB8B440815">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>5F5D74FA-D0E8-E251-17A1-844702B1C680</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE1ECCD-3567-C262-4260-E21731313396" referredColumn="9014D729-4A37-92A4-7377-A63E96654192"/>
+</associations>
+</Column>
+<Column name="pocet_vozu" id="7942C346-2838-AC7A-219C-264DD5AD09E4">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>E80A9C87-93F1-0532-9E9B-E168B97BACE2</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zabezpecovac" id="DFDDD980-9429-ABF6-1842-D05397DAF997">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>05323C48-2B0E-3C69-1738-F63EFF7901E9</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0400A783-7787-4FBF-88E8-B78432906F80" referredColumn="AD88A6CE-D430-8D99-23CF-7D2C457CAC76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57F4B550-7DFC-0804-9844-A75441F2C103" name="METRO_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>1EE322EC-EB81-5C25-555A-DFD4E607C705</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9767A885-2BFC-69F3-294D-FCCB8B440815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6750BBAF-9F82-AE4B-EAE1-F2BD4EE00E5C" name="METRO_VOZIDLO_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>79B90ECA-FFD7-410A-6EE3-D81F9DC85EBC</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9767A885-2BFC-69F3-294D-FCCB8B440815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD74E9F0-19A4-0D70-2F8A-818857721E75" name="METRO_ZABEZPECOVAC_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>F6976228-540A-4BDE-3CD4-86ECFF61ED36</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFDDD980-9429-ABF6-1842-D05397DAF997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

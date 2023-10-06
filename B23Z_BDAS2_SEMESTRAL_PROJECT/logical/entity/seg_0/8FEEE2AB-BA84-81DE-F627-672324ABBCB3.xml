@@ -63,6 +63,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_STAV" id="2D3A2E16-851B-0E03-271E-5CDE0806C626">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 09:52:58 UTC</createdTime>
+<generatorID>2F53BF68-11A2-1764-8416-EAFD1A7F15ED</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DDC6E744-8FC4-D4BB-B0F4-016DA0A7684A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="57048DCA-2532-75C6-BA02-0F416CA1A5F0" name="UZIVATEL PK">

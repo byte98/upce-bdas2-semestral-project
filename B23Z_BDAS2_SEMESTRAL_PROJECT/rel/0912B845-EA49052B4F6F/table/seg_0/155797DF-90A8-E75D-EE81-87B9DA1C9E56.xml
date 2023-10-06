@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="155797DF-90A8-E75D-EE81-87B9DA1C9E56" name="UZIVATELE">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>8FEEE2AB-BA84-81DE-F627-672324ABBCB3</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>uzivatel</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UZIVATEL" id="CEE1747C-62D6-3C81-6CFC-0035F6276739">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>BFB068C2-A71A-B699-02DA-D074BAF0F0F0</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="heslo" id="D4D6DF08-209E-53B7-4E9E-DDF4640EE794">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>28CE4724-B41E-BC09-66D9-9B952EBC59C1</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_registrace" id="EA3B4815-AAA6-BD4F-9C8F-E6F190BDA991">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>F170266A-77AD-5A08-0A7D-B8689B27DCF4</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="D85AE194-8296-77AE-83EB-7EF8FB298738">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>B8999BC6-7C25-2D86-6218-FA074DE7F075</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2947827-7A97-B39A-7F32-4811209E2DE2" referredColumn="9BE97889-5475-AD24-FFB5-511965BA510F"/>
+</associations>
+</Column>
+<Column name="stav" id="314F8791-382C-A633-D727-B143598828E2">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>2D3A2E16-851B-0E03-271E-5CDE0806C626</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E10893C-F398-066A-9699-D6F692F6FD59" referredColumn="ABD5E887-1A94-36E0-2F24-98B56FA0A985"/>
+</associations>
+</Column>
+<Column name="zamestnanec" id="BAAD33BC-7CBB-0FC4-DDED-06D9F61673BA">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 11:50:02 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2815F479-1536-1350-97CD-17B6A76B4C8A" referredColumn="66499D00-4DFC-5D13-4A27-E96FB21DDACB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="828523A9-F504-EEAE-42A7-EA02B7476464" name="UZIVATEL_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>57048DCA-2532-75C6-BA02-0F416CA1A5F0</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE1747C-62D6-3C81-6CFC-0035F6276739"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9BBEC66-F4A8-3762-F51A-8F031291D739" name="UZIVATEL_ROLE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>89A29F61-A440-E746-5702-D8B8B7C6C4F0</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85AE194-8296-77AE-83EB-7EF8FB298738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8645CFF-E020-5D43-C16C-4DADB27012B7" name="UZIVATEL_STAV_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>2F53BF68-11A2-1764-8416-EAFD1A7F15ED</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="314F8791-382C-A633-D727-B143598828E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29E3B431-8181-0419-C7FF-7392DFC9AC18" name="UZIVATEL_ZAMESTNANEC_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:43:24 UTC</createdTime>
+<generatorID>BED5AE57-4531-D23D-E558-89817804D911</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAAD33BC-7CBB-0FC4-DDED-06D9F61673BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

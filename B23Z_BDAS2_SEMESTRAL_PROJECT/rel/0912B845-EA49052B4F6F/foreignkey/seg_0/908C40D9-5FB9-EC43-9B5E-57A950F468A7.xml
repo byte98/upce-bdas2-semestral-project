@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="908C40D9-5FB9-EC43-9B5E-57A950F468A7" containerWithKeyObject="4A902886-0284-DF0F-6B7E-7EDDA67CE380" localFKIndex="C4CDD033-BCD8-EB78-F602-B9BDC597A3EF" name="OBCE_STAT_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>FF4BB753-B809-C1E0-DA6D-BDEAE0B8708C</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>STAT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFF8A313-016B-B442-9CA9-C12515B3C2F8</referredTableID>
+<keyObject>F8A0EFFE-6BE5-9F12-4A1D-ED245C96D07D</keyObject>
+<referredKeyID>F8A0EFFE-6BE5-9F12-4A1D-ED245C96D07D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_STAT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

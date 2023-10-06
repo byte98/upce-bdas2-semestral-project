@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E42F5430-E207-8EBA-DC58-2592A20D3B05" containerWithKeyObject="57C35F94-77B8-57B6-879D-3B0F9FB9046E" localFKIndex="D30DCACD-5553-7CA4-3E52-20A7EE707D91" name="PROVOZ_ADRESY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>382EC8A3-F0DF-8E57-C5AA-8762CDB6DE67</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>ADRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FD54205-7871-AFE2-5687-3F44C982D5A3</referredTableID>
+<keyObject>11634B7C-30D0-9C94-A866-EC068DD8E53B</keyObject>
+<referredKeyID>11634B7C-30D0-9C94-A866-EC068DD8E53B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ADRESA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

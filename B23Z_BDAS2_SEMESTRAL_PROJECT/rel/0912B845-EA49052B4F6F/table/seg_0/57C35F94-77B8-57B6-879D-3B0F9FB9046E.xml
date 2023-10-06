@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57C35F94-77B8-57B6-879D-3B0F9FB9046E" name="PROVOZY">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>343582B6-5A0B-8B6E-AD6F-414E5FF246C6</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>provoz</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROVOZ" id="4E330425-45E7-0133-281C-3E187752E365">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>2FFB88DD-A9EA-3206-8E88-E532D5D336CC</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="77597FBA-634F-9AA8-6844-49208DFF78DB">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>3B59E831-5703-2CEF-A855-7288B13AA00A</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servisni_stredisko" id="DF808F01-3F86-8B4C-5437-F05AD1CC1D88">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>9A41324B-0498-4444-241D-C1332B4ED99A</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sidlo" id="601D9120-92C1-DBC8-407A-40168D210A57">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>EDC9BA33-6105-1808-2BDC-2FE11B758C71</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42F5430-E207-8EBA-DC58-2592A20D3B05" referredColumn="D01DB461-BBFC-CABB-EA5F-5F304BF37738"/>
+</associations>
+</Column>
+<Column name="vedouci" id="AC46771E-5F5B-2C6D-F4E1-9E7D2E76B323">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 11:56:53 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1227E39-F570-8BD2-66F3-197A3966E5D8" referredColumn="66499D00-4DFC-5D13-4A27-E96FB21DDACB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EE33094-090E-5361-053A-02A2BCB466CD" name="PROVOZ_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>3AB195D2-0C72-F102-C01F-DF9D2D9AF836</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E330425-45E7-0133-281C-3E187752E365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D30DCACD-5553-7CA4-3E52-20A7EE707D91" name="PROVOZ_ADRESY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>382EC8A3-F0DF-8E57-C5AA-8762CDB6DE67</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="601D9120-92C1-DBC8-407A-40168D210A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B284A86-EA35-2A5D-2BC4-7192BF076D77" name="PROVOZY_ZAMESTNANEC_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 11:56:53 UTC</createdTime>
+<generatorID>5C6A3F46-C2A2-5A08-315D-F4830B7B265E</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC46771E-5F5B-2C6D-F4E1-9E7D2E76B323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

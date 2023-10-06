@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2947827-7A97-B39A-7F32-4811209E2DE2" containerWithKeyObject="155797DF-90A8-E75D-EE81-87B9DA1C9E56" localFKIndex="B9BBEC66-F4A8-3762-F51A-8F031291D739" name="UZIVATEL_ROLE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-06 10:34:24 UTC</createdTime>
+<generatorID>89A29F61-A440-E746-5702-D8B8B7C6C4F0</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>ROLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BB96102-4C80-BCFF-F801-BF07F9CE99E0</referredTableID>
+<keyObject>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</keyObject>
+<referredKeyID>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_ROLE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
