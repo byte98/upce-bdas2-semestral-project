@@ -43,6 +43,7 @@ DROP SEQUENCE linky_seq;
 DROP SEQUENCE modely_seq;
 DROP SEQUENCE obce_seq;
 DROP SEQUENCE osoby_seq;
+DROP SEQUENCE plany_smen_seq;
 DROP SEQUENCE prevodovky_seq;
 DROP SEQUENCE provozy_seq;
 DROP SEQUENCE role_seq;
