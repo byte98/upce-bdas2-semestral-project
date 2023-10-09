@@ -44,10 +44,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="zastavka" id="E7DAE1C6-6B54-5948-B970-CB0D024ADE10">
+<Column name="plan" id="B415BB31-7ED7-1CBE-9E79-AEF3A629DC4A">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>B4E322C9-E031-52A2-8C29-37C78D7A6D8F</generatorID>
+<createdTime>2023-10-09 08:23:39 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,37 +55,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0AA35968-2F46-396F-4C3A-86A0BFC0DD6A" referredColumn="C9AD4B24-58AA-4D8E-530C-6A358D7A58AC"/>
-</associations>
-</Column>
-<Column name="jizdni_rad" id="4B62BD18-86AD-CA63-625A-94E2D6E97F37">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>48BF3EFF-55C4-3949-74C8-F7DCDDCBA707</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F0E2A613-2FB3-3042-4A45-6A0EC2F1DCDE" referredColumn="CBF077FC-D5D8-5B47-F72E-00EDC6184AC5"/>
-</associations>
-</Column>
-<Column name="smena" id="3FF80AC1-B618-62A8-40FE-2165873FF677">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>8437BC21-AF79-E105-4E41-562E0431165F</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4313D5B3-3747-FAFF-DFB3-04DAA74F4543" referredColumn="0AFD679B-F9AA-3126-13CA-156CBB7CCFEC"/>
+<colAssociation fkAssociation="2CEC1132-9FF1-4780-F8A7-1349C4E77297" referredColumn="6AF10442-CB76-0B19-06E3-1BA52E0304BD"/>
 </associations>
 </Column>
 </columns>
@@ -103,37 +72,14 @@
 <colUsage columnID="A647D378-E921-2574-FD0E-B1AD55EC75CA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="34F35782-C6A3-5C69-4F04-FC4DC583BC8D" name="SKUTECNY_RAD_SMENA_FK">
+<ind_PK_UK id="641247EF-554E-42C9-5811-D3F86AC3FE0C" name="SKUTECNE_RADY_PLANY_SMEN_FK">
 <createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>2117C424-495F-0620-CBAA-B1377BB9AA25</generatorID>
+<createdTime>2023-10-09 08:23:39 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3FF80AC1-B618-62A8-40FE-2165873FF677"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0FC56D68-AFDB-C1C9-A7EA-03E5A8841332" name="SKUTECNY_RAD_ZASTAVKA_FK">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>D7A749F2-A7A0-3424-60CE-E8AA40C1D33C</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E7DAE1C6-6B54-5948-B970-CB0D024ADE10"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7F3AAF69-B6CC-4BA5-E64F-FA070F2D10A3" name="SKUTECNY_RAD_JIZDNI_RADY_FK">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>927FD083-1BD7-E4C6-0CBD-29408F99E2AF</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4B62BD18-86AD-CA63-625A-94E2D6E97F37"/>
+<colUsage columnID="B415BB31-7ED7-1CBE-9E79-AEF3A629DC4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

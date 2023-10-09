@@ -55,13 +55,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>10000</beginValue>
-<endValue>99999</endValue>
-<description>PSC_ROZSAH</description>
-</rangeDef>
-</listOfRanges>
 </Column>
 <Column name="stat" id="CE01F07D-78AC-7146-A2CE-07593EAA9E19">
 <createdBy>skoda</createdBy>

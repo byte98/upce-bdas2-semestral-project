@@ -596,27 +596,6 @@ Pardubice, 2023</comment>
 <backgroundColor>-65536</backgroundColor>
 <lineWidth>1</lineWidth>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D7A749F2-A7A0-3424-60CE-E8AA40C1D33C" otype="Relation" vid_source="62AF5017-CBBD-0448-76F1-3C79B3271886" vid_target="09F68EDE-8760-FA3C-9BF2-EF351B5E0115">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<sourceLabel class="oracle.dbtools.crest.model.design.Label">
-<site>0</site>
-<labelBounds x="745" y="668" width="44" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</sourceLabel>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="745" y="607" width="139" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</targetLabel>
-<points>
-<point x="745" y="720"/>
-<point x="745" y="563"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="DD7DC167-5D7F-8B61-54D9-9229BE22E8BB" otype="Hierarchy relation" vid_source="D8136666-7FAB-8798-F667-20DE995415EF" vid_target="6E4E6855-E4A3-F149-6AC9-0A501852B500">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-65536</backgroundColor>

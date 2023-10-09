@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN_SMENY" id="6AF10442-CB76-0B19-06E3-1BA52E0304BD">
+<createdBy>skoda</createdBy>
+<createdTime>2023-10-09 08:23:03 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="smena" id="63A4E0FB-77F1-956B-093E-01D9FDD0878C">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
@@ -46,8 +56,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="63A4E0FB-77F1-956B-093E-01D9FDD0878C"/>
-<colUsage columnID="9F809414-EC89-0D13-0778-825410864AF5"/>
+<colUsage columnID="6AF10442-CB76-0B19-06E3-1BA52E0304BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E5C4BEB3-8352-9DCD-AD51-7AF0A7B94512" name="REL_SMENA_JIZDNI_RAD_SMENA_FK">

@@ -16,6 +16,7 @@ CREATE SEQUENCE linky_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE modely_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE obce_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE osoby_seq START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE plany_smen_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE prevodovky_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE provozy_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE role_seq START WITH 1 NOCACHE ORDER;
@@ -104,8 +105,6 @@ CREATE TABLE obce (
     stat      INTEGER NOT NULL
 );
 
-ALTER TABLE obce ADD CHECK ( psc BETWEEN 10000 AND 99999 );
-
 ALTER TABLE obce ADD CONSTRAINT obce_pk PRIMARY KEY ( id_obec );
 
 CREATE TABLE osoby (
@@ -119,12 +118,12 @@ CREATE TABLE osoby (
 ALTER TABLE osoby ADD CONSTRAINT osoby_pk PRIMARY KEY ( id_osoba );
 
 CREATE TABLE plany_smen (
-    smena      INTEGER NOT NULL,
-    jizdni_rad INTEGER NOT NULL
+    id_plan_smeny INTEGER DEFAULT plany_smen_seq.nextval NOT NULL,
+    smena         INTEGER NOT NULL,
+    jizdni_rad    INTEGER NOT NULL
 );
 
-ALTER TABLE plany_smen ADD CONSTRAINT rel_smena_jizdni_rad_pk PRIMARY KEY ( smena,
-                                                                            jizdni_rad );
+ALTER TABLE plany_smen ADD CONSTRAINT rel_smena_jizdni_rad_pk PRIMARY KEY ( id_plan_smeny );
 
 CREATE TABLE prevodovky (
     id_prevodovka INTEGER DEFAULT prevodovky_seq.nextval  NOT NULL,
@@ -151,12 +150,10 @@ CREATE TABLE role (
 ALTER TABLE role ADD CONSTRAINT role_pk PRIMARY KEY ( id_role );
 
 CREATE TABLE skutecne_rady (
-    id_skutecny_rad INTEGER DEFAULT skutecne_rady_seq.nextval  NOT NULL,
+    id_skutecny_rad INTEGER DEFAULT skutecne_rady_seq.nextval NOT NULL,
     cas_prijezdu    DATE,
     cas_odjezdu     DATE,
-    zastavka        INTEGER NOT NULL,
-    jizdni_rad      INTEGER NOT NULL,
-    smena           INTEGER NOT NULL
+    plan            INTEGER NOT NULL
 );
 
 ALTER TABLE skutecne_rady ADD CONSTRAINT skutecny_rad_pk PRIMARY KEY ( id_skutecny_rad );
@@ -346,16 +343,8 @@ ALTER TABLE plany_smen
         REFERENCES smeny ( id_smena );
 
 ALTER TABLE skutecne_rady
-    ADD CONSTRAINT skutecny_rad_jizdni_rady_fk FOREIGN KEY ( jizdni_rad )
-        REFERENCES jizdni_rady ( id_jizdni_rad );
-
-ALTER TABLE skutecne_rady
-    ADD CONSTRAINT skutecny_rad_smena_fk FOREIGN KEY ( smena )
-        REFERENCES smeny ( id_smena );
-
-ALTER TABLE skutecne_rady
-    ADD CONSTRAINT skutecny_rad_zastavka_fk FOREIGN KEY ( zastavka )
-        REFERENCES zastavky ( id_zastavka );
+    ADD CONSTRAINT skutecne_rady_plany_smen_fk FOREIGN KEY ( plan )
+        REFERENCES plany_smen ( id_plan_smeny );
 
 ALTER TABLE smeny
     ADD CONSTRAINT smena_vozidlo_fk FOREIGN KEY ( vozidlo )
