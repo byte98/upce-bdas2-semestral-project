@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="B23Z_BDAS2_SEMESTRAL_PROJECT" id="5ADF7721-1E6C-6C77-E305-2D6BA0401758" version="3.5">
-<createdBy>skoda</createdBy>
-<createdTime>2022-10-17 14:35:03 UTC</createdTime>
-<ownerDesignName>B22Z_BDAS1_SKODA_SEMESTRAL_PROJECT</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>5ADF7721-1E6C-6C77-E305-2D6BA0401758</designId>
-</OSDM_Design>
