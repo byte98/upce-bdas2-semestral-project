@@ -149,6 +149,9 @@ CREATE TABLE role (
 
 ALTER TABLE role ADD CONSTRAINT role_pk PRIMARY KEY ( id_role );
 
+-- Pridani superuzivatele
+INSERT INTO role (id_role, nazev) VALUES (0, 'SUPERUŽIVATEL');
+
 CREATE TABLE skutecne_rady (
     id_skutecny_rad INTEGER DEFAULT skutecne_rady_seq.nextval NOT NULL,
     cas_prijezdu    DATE,
