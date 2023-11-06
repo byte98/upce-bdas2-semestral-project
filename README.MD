@@ -39,6 +39,7 @@ Tabulka, jež uchovává všechny jízdní řády.
 - **varianta**: Varianta jízdního řádu (zde se bude ukládat například pořadí během dne, speciální noční či víkendové řády apod.)
 - **linka**: Identifikátor [linky](#linky)
 - **zastavka**: Identifikátor [zastavky](#zastavky)
+
 Jeden záznam v této tabulce prezentuje informaci o jednom zastavení vozidla na zastávce. Pokud bychom chtěli získat celý jízdní řád jedné linky (pro jeden oběh), stačí získat všechny záznamy z této tabulky se stejnou linkou a variantou a tyto záznamy seřadit dle pořadového čísla.
 
 #### Linky
@@ -77,6 +78,7 @@ Tabulka se všemi potřebnými uchovávanými osobními údaji.
 Relační tabulka spojující směnu a jízdní řády, které má být na směně odjeta.
 - **smena**: Identifikátor [směny](#smeny)
 - **jizdni_rad**: Identifikátor [jízdního řádu](#jizdni_rady)
+
 Jeden řádek tedy přiřazuje jeden jízdní řád směně, která ho má odjet. Pokud by bylo potřeba získat informace o celé jedné směně, stačí získat všechny jízdní řády této směny a poté je seřadit dle času příjezdu.
 
 #### Prevodovky
@@ -103,6 +105,7 @@ Tabulka uchovávájící reálné projetí jízdních rádů.
 - **cas_prijezdu**: Skutčený čas příjezdu
 - **cas_odjezdu**: Skutečný čas odjezdu
 - **plan**: [Plán](#planysmen), ve kterém je uložen pravidelný příjezd/odjezd
+
 Jeden záznam tak reprezentuje zhruba toto: směna X relizovala jízdní řád Y (pro linku A a zastávku B) v tomto čase.
 
 #### Smena
