@@ -43,6 +43,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="obrazek" id="0EA1D0AA-C099-F687-C5C4-EFA134A3AA86">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-06 08:56:32 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="role" id="D85AE194-8296-77AE-83EB-7EF8FB298738">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
