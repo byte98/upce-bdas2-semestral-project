@@ -252,15 +252,6 @@ Pardubice, 2023</comment>
 <point x="2213" y="940"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9B423E6F-744C-BD99-5094-4E018F0A2D41" otype="FKIndexAssociation" vid_source="E092022C-2B41-BF87-6746-524D9F1A7C2A" vid_target="817F49AB-5C61-ABC5-1E1C-43D0533E8007">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1669" y="699"/>
-<point x="1669" y="1040"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9F977B73-7A3F-E1BA-71D8-5776F4EDCC89" otype="FKIndexAssociation" vid_source="6CA14846-CD6E-F1A3-8360-025FBB724F40" vid_target="CF13C912-B498-FB7A-DDA4-A432A645B146">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>

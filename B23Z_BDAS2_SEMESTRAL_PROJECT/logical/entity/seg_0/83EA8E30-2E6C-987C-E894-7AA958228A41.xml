@@ -3,6 +3,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 15:45:04 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 15:45:10 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 15:45:25 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -37,9 +46,24 @@
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 15:45:23 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>363B51D8-8F2C-C117-FC0A-05A591A1C38C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EB3406A9-035D-5386-03BF-C97264149E65" name="stat_un">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-06 15:02:38 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<newElementsIDs>0AEED951-4172-B90E-D73A-669B1474C233</newElementsIDs>
+<usedAttributes>
+<attributeRef>0AEED951-4172-B90E-D73A-669B1474C233</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

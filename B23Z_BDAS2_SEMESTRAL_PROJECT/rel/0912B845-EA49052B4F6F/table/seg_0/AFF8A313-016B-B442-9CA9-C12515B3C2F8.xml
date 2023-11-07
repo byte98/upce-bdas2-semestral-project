@@ -46,5 +46,15 @@
 <colUsage columnID="4C5BA6A7-5660-A7E7-F5B0-AA96C27AAEDF"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="FE6324F7-6CAE-1196-50A7-7644722D9ABD" name="STATY__UN">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-06 15:01:53 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="788843AD-68AB-77EB-AAA2-2A91943D9C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

@@ -64,21 +64,6 @@
 <colAssociation fkAssociation="A66124F2-0726-42C1-7E89-54B64055696A" referredColumn="D01DB461-BBFC-CABB-EA5F-5F304BF37738"/>
 </associations>
 </Column>
-<Column name="uzivatelsky_ucet" id="161772C7-E953-65B0-FBFA-09FB10E1E1D7">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>59E42526-B84C-1ACF-3EF9-09119659BABD</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9B423E6F-744C-BD99-5094-4E018F0A2D41" referredColumn="CEE1747C-62D6-3C81-6CFC-0035F6276739"/>
-</associations>
-</Column>
 <Column name="osobni_udaje" id="D942A8C1-2FDF-FA8B-6A50-1A8748D8BB3C">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 12:00:37 UTC</createdTime>
@@ -141,17 +126,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D942A8C1-2FDF-FA8B-6A50-1A8748D8BB3C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="00252851-7C6E-AF0C-E1EB-C038FF772367" name="ZAMESTNANEC_UZIVATEL_FK">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>BED5AE57-4531-D23D-E558-89817804D911</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="161772C7-E953-65B0-FBFA-09FB10E1E1D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="171E0BA5-86A7-ED4D-CC4C-565F2859AA70" name="ZAMESTNANEC_ADRESA_FK">
