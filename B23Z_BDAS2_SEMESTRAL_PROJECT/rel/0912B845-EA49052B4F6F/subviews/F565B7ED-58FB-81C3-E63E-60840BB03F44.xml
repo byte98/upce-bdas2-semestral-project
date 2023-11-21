@@ -90,7 +90,7 @@ Pardubice, 2023</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6BB96102-4C80-BCFF-F801-BF07F9CE99E0" otype="Table" vid="1650C556-945C-2EF8-C08B-EC3433F72A1A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1710" y="330" width="186" height="82"/>
+<bounds x="1700" y="340" width="271" height="101"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6DAE68FD-9DA6-C7A7-C494-B4467F512F6F" otype="Table" vid="923EDF11-AA85-18AD-A739-E33D42C114F6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -347,8 +347,8 @@ Pardubice, 2023</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1790" y="412"/>
-<point x="1790" y="490"/>
+<point x="1785" y="441"/>
+<point x="1785" y="490"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E42F5430-E207-8EBA-DC58-2592A20D3B05" otype="FKIndexAssociation" vid_source="6CA14846-CD6E-F1A3-8360-025FBB724F40" vid_target="895A8CD8-D6DB-7E2E-C7CB-DE96E6A4C2FF">

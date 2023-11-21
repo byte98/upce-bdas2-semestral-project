@@ -10,8 +10,8 @@
 <identifying>false</identifying>
 <nameOnSource>ma prirazenu</nameOnSource>
 <nameOnTarget>je prirazena</nameOnTarget>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>8FEEE2AB-BA84-81DE-F627-672324ABBCB3</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

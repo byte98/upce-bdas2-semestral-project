@@ -9,7 +9,7 @@
 <referredTableID>6BB96102-4C80-BCFF-F801-BF07F9CE99E0</referredTableID>
 <keyObject>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</keyObject>
 <referredKeyID>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID_ROLE</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

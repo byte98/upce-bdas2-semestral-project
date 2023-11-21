@@ -10,8 +10,8 @@
 <identifying>false</identifying>
 <nameOnSource>urcuje</nameOnSource>
 <nameOnTarget>je ve</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>0ADC4E06-75EC-6CC1-6B5D-A07CD1A63809</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

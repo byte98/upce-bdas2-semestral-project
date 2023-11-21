@@ -4,12 +4,12 @@
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
 <generatorID>2F53BF68-11A2-1764-8416-EAFD1A7F15ED</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<referredTableLongName>STAV</referredTableLongName>
+<referredTableLongName>STAVY</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>5ADA3480-DDA8-8B36-7324-71DA0F42595B</referredTableID>
 <keyObject>DB7E6C00-6652-6D8A-B8EF-5F13A00AE7D0</keyObject>
 <referredKeyID>DB7E6C00-6652-6D8A-B8EF-5F13A00AE7D0</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID_STAV</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

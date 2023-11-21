@@ -58,7 +58,6 @@
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
 <generatorID>B8999BC6-7C25-2D86-6218-FA074DE7F075</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -74,7 +73,6 @@
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
 <generatorID>2D3A2E16-851B-0E03-271E-5CDE0806C626</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
