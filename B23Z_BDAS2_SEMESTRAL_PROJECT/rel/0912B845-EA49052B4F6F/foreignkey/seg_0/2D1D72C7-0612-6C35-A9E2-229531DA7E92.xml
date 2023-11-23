@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D1D72C7-0612-6C35-A9E2-229531DA7E92" containerWithKeyObject="8FDF6932-3D24-DBF9-04DC-DAFF37F6E799" localFKIndex="AB862271-99F9-DFEA-938C-D20AF560D55C" name="PRAVA_ROLE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:26 UTC</createdTime>
+<generatorID>E9D8B204-E143-7621-B1ED-CDF42AA74861</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>ROLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BB96102-4C80-BCFF-F801-BF07F9CE99E0</referredTableID>
+<keyObject>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</keyObject>
+<referredKeyID>4E0DF8A8-C5B7-6EF3-12EB-0DD92C08FE1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ROLE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

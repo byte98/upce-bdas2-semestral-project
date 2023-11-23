@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02C63D0A-75A9-358D-68FA-4B9F268BE391" containerWithKeyObject="8FDF6932-3D24-DBF9-04DC-DAFF37F6E799" localFKIndex="291D312F-878E-ADE5-69F9-301599BEE2B8" name="PRAVA_OPRAVNENI_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>OPRAVNENI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>859E03AD-AA6F-4D5C-C90E-19322473CA73</referredTableID>
+<keyObject>D7D7CDF3-A986-E3D7-6701-C7A1FB35F85A</keyObject>
+<referredKeyID>D7D7CDF3-A986-E3D7-6701-C7A1FB35F85A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OPRAVNENI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

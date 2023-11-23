@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FDF6932-3D24-DBF9-04DC-DAFF37F6E799" name="PRAVA">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:07:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRAVO" id="3FEC3904-49BF-3DDB-1F24-D3FD924D7F4B">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:08:20 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="1E4C4E13-3391-B416-EF15-16B18DC5F421">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:26 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D1D72C7-0612-6C35-A9E2-229531DA7E92" referredColumn="9BE97889-5475-AD24-FFB5-511965BA510F"/>
+</associations>
+</Column>
+<Column name="opravneni" id="C010BA7F-ED1E-1625-09C0-F4828820BE06">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02C63D0A-75A9-358D-68FA-4B9F268BE391" referredColumn="EC9200C3-F2A2-0B19-FD42-E1937E2846E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2263F5CA-67FF-56B7-C527-26363F360E0E" name="PRAVA_PK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:09:15 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FEC3904-49BF-3DDB-1F24-D3FD924D7F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB862271-99F9-DFEA-938C-D20AF560D55C" name="PRAVA_ROLE_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:26 UTC</createdTime>
+<generatorID>E9D8B204-E143-7621-B1ED-CDF42AA74861</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E4C4E13-3391-B416-EF15-16B18DC5F421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="291D312F-878E-ADE5-69F9-301599BEE2B8" name="PRAVA_OPRAVNENI_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-11-23 16:10:40 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C010BA7F-ED1E-1625-09C0-F4828820BE06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
