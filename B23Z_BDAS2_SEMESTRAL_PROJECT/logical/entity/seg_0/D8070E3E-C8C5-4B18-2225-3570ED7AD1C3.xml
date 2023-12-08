@@ -3,6 +3,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:56:51 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,17 +19,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:56:54 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_VOZIDLO" id="554D05E2-9688-B9A8-BD4B-F606456AB5F9">
-<createdBy>skoda</createdBy>
-<createdTime>2022-11-02 10:22:54 UTC</createdTime>
-<generatorID>6D295A54-04C4-BEC4-858F-E7AD2606D2EF</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<referedAttribute>5F5D74FA-D0E8-E251-17A1-844702B1C680</referedAttribute>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -37,6 +32,9 @@
 <createdTime>2022-11-02 10:24:17 UTC</createdTime>
 <generatorID>B7D8BF1B-E677-2EB4-0AC9-B782070A7A49</generatorID>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <referedAttribute>0A16D397-F086-45F9-368D-5CEACDB39459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,6 +47,9 @@
 <createdBy>skoda</createdBy>
 <createdTime>2022-11-02 07:57:03 UTC</createdTime>
 <ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>69401E86-361F-5CC8-2CDB-F26115F685AD</attributeRef>

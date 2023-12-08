@@ -40,6 +40,18 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="prihlasitelny" id="225614DF-A87F-7523-9C6F-0AAA9CDE0C7C">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-04 13:51:24 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8434A058-2C23-E783-F29B-EB129B1F54C3" name="STAV PK">

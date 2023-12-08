@@ -32,6 +32,16 @@
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="prihlasitelny" id="FAFD4123-635C-8EBE-0EF4-DC4807766FA6">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-04 13:50:55 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DB7E6C00-6652-6D8A-B8EF-5F13A00AE7D0" name="STAV_PK">
