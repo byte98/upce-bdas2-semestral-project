@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02508642-60E5-C666-E1DC-F5D9C74E33CC" containerWithKeyObject="155797DF-90A8-E75D-EE81-87B9DA1C9E56" localFKIndex="E6F7852E-B764-02C8-6826-D465BBE06723" name="UZIVATELE_OBRAZKY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-15 14:06:39 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<referredTableLongName>OBRAZKY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C63A867-F005-C9CB-592E-EDF2B20268B8</referredTableID>
+<keyObject>6EC553DF-5030-79AE-1FCA-8F1382E64C02</keyObject>
+<referredKeyID>6EC553DF-5030-79AE-1FCA-8F1382E64C02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OBRAZEK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

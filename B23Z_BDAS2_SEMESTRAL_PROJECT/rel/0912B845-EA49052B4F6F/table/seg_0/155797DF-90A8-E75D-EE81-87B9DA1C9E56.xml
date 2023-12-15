@@ -43,16 +43,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="obrazek" id="0EA1D0AA-C099-F687-C5C4-EFA134A3AA86">
-<createdBy>skoda</createdBy>
-<createdTime>2023-11-06 08:56:32 UTC</createdTime>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="role" id="D85AE194-8296-77AE-83EB-7EF8FB298738">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
@@ -95,6 +85,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="2815F479-1536-1350-97CD-17B6A76B4C8A" referredColumn="66499D00-4DFC-5D13-4A27-E96FB21DDACB"/>
+</associations>
+</Column>
+<Column name="obrazek" id="9113DC5F-B5B6-B508-32A8-25FF8AEB766B">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-15 14:06:39 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02508642-60E5-C666-E1DC-F5D9C74E33CC" referredColumn="732F9900-DC59-A680-C139-819005A6B124"/>
 </associations>
 </Column>
 </columns>
@@ -142,6 +146,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BAAD33BC-7CBB-0FC4-DDED-06D9F61673BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6F7852E-B764-02C8-6826-D465BBE06723" name="UZIVATELE_OBRAZKY_FK">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-15 14:06:39 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9113DC5F-B5B6-B508-32A8-25FF8AEB766B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

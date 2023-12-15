@@ -52,18 +52,6 @@
 <logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="obrazek" id="B5BAE0C0-1A5F-7921-F556-005561200F82">
-<createdBy>skoda</createdBy>
-<createdTime>2023-11-06 08:55:48 UTC</createdTime>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<engineerTo>
-<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_OSOBA" id="D3A9DB06-F534-A3F2-B6AB-EDF6438F41F9">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-05 15:29:24 UTC</createdTime>
@@ -101,6 +89,20 @@
 <item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
 </engineerTo>
 <referedAttribute>DDC6E744-8FC4-D4BB-B0F4-016DA0A7684A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OBRAZEK" id="222D502D-6A6A-1965-9375-9C657E19CD2C">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-15 14:08:39 UTC</createdTime>
+<generatorID>82C50B82-CA5B-ADE0-462E-41B128BE8039</generatorID>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<referedAttribute>4B59E289-A68A-4A8F-F779-4AE8D38B3CDF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

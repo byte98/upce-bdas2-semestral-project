@@ -32,28 +32,6 @@
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GPS_severni_sirka" id="AF7EEC77-B1A1-7966-4D21-5949A77E3C43">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>90C8ED84-8F70-59A7-0E04-CA106C2AB784</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="GPS_vychodni_delka" id="04182253-C86E-C28F-CE5B-A0947A5A2C2E">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>0BAFFAA2-BCF7-4ECA-C104-86ED0165E4F7</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="kod" id="07CF0BB5-9110-8949-7BB5-E710F480C57E">
 <createdBy>skoda</createdBy>
 <createdTime>2023-10-06 10:34:24 UTC</createdTime>
@@ -64,29 +42,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="bezbarierova" id="DD37B7E7-3641-9BDA-3C02-7176EBED4FB6">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>C6F004F6-EA0D-1B27-D039-3C7672FA1C4B</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="na_znameni" id="C90DAF62-2DE7-601F-7B6F-232608436DF4">
-<createdBy>skoda</createdBy>
-<createdTime>2023-10-06 10:34:24 UTC</createdTime>
-<generatorID>E2A74432-8D68-B46C-B616-1489240EC513</generatorID>
-<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

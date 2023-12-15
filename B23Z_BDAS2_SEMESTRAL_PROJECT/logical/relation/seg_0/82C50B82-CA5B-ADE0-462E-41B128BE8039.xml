@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="82C50B82-CA5B-ADE0-462E-41B128BE8039">
+<createdBy>skoda</createdBy>
+<createdTime>2023-12-15 14:08:26 UTC</createdTime>
+<ownerDesignName>B23Z_BDAS2_SEMESTRAL_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="0912B845-AC72-E0D3-C35C-EA49052B4F6F" value="true"/>
+</engineerTo>
+<sourcePk>57048DCA-2532-75C6-BA02-0F416CA1A5F0</sourcePk>
+<targetPk>27335ADF-B3DD-F95A-788F-22DBE0AEA5FC</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ma definovan</nameOnSource>
+<nameOnTarget>je prirazen</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8FEEE2AB-BA84-81DE-F627-672324ABBCB3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CB4A953F-FF30-A55B-67D3-D8D69A24F659</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -44,10 +44,6 @@ Jiří Škoda - jiri.skoda@student.upce.cz
 Fakulta elektrotechniky a informatiky, Univerzita Pardubice
 Pardubice, 2023</comment>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="52B48C3A-04B6-3109-0B22-8E55E71BDFA9" otype="Entity" vid="62AF5017-CBBD-0448-76F1-3C79B3271886">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="410" y="770" width="170" height="110"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5B7BA594-226C-D2C3-C45F-F8145D66C53E" otype="Entity" vid="3ABA1BF2-4590-96E0-FA92-6E3286534F74">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="30" y="540" width="170" height="110"/>
@@ -72,9 +68,9 @@ Pardubice, 2023</comment>
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="40" y="360" width="170" height="64"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D8070E3E-C8C5-4B18-2225-3570ED7AD1C3" otype="Entity" vid="85B429ED-37D2-FFB9-61C4-4CC4A353B7FA">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CB4A953F-FF30-A55B-67D3-D8D69A24F659" otype="Entity" vid="9A59A952-EFCE-1034-5E6F-3997085F6809">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="130" y="850" width="170" height="114"/>
+<bounds x="390" y="340" width="156" height="111"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EB6BCE25-FB47-244F-6911-327949FF7D0D" otype="Entity" vid="791E8407-A459-8461-79B6-96035F9A4343">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -131,27 +127,6 @@ Pardubice, 2023</comment>
 <points>
 <point x="390" y="576"/>
 <point x="200" y="576"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2117C424-495F-0620-CBAA-B1377BB9AA25" otype="Relation" vid_source="85B429ED-37D2-FFB9-61C4-4CC4A353B7FA" vid_target="62AF5017-CBBD-0448-76F1-3C79B3271886">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<sourceLabel class="oracle.dbtools.crest.model.design.Label">
-<site>0</site>
-<labelBounds x="310" y="830" width="73" height="35"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</sourceLabel>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="350" y="868" width="54" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</targetLabel>
-<points>
-<point x="300" y="865"/>
-<point x="410" y="865"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2F53BF68-11A2-1764-8416-EAFD1A7F15ED" otype="Relation" vid_source="CA026A74-F96B-2C58-2617-D9877E52C7FF" vid_target="FFB9B309-D561-AFE7-E562-959DDB2B6BB9">
@@ -261,25 +236,25 @@ Pardubice, 2023</comment>
 <point x="1040" y="520"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="76CA0299-7512-4569-6E87-B6CA95DDF3A5" otype="Relation" vid_source="85B429ED-37D2-FFB9-61C4-4CC4A353B7FA" vid_target="3ABA1BF2-4590-96E0-FA92-6E3286534F74">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="82C50B82-CA5B-ADE0-462E-41B128BE8039" otype="Relation" vid_source="FFB9B309-D561-AFE7-E562-959DDB2B6BB9" vid_target="9A59A952-EFCE-1034-5E6F-3997085F6809">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="165" y="806" width="79" height="30"/>
+<labelBounds x="660" y="400" width="64" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="165" y="694" width="91" height="30"/>
+<labelBounds x="556" y="433" width="65" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="165" y="850"/>
-<point x="165" y="650"/>
+<point x="730" y="430"/>
+<point x="546" y="420"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="89A29F61-A440-E746-5702-D8B8B7C6C4F0" otype="Relation" vid_source="FFB9B309-D561-AFE7-E562-959DDB2B6BB9" vid_target="791E8407-A459-8461-79B6-96035F9A4343">
@@ -303,28 +278,6 @@ Pardubice, 2023</comment>
 <point x="840" y="301"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="927FD083-1BD7-E4C6-0CBD-29408F99E2AF" otype="Relation" vid_source="3ABA1BF2-4590-96E0-FA92-6E3286534F74" vid_target="62AF5017-CBBD-0448-76F1-3C79B3271886">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<sourceLabel class="oracle.dbtools.crest.model.design.Label">
-<site>0</site>
-<labelBounds x="210" y="609" width="71" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</sourceLabel>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="437" y="726" width="51" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</targetLabel>
-<points>
-<point x="200" y="639"/>
-<point x="437" y="639"/>
-<point x="437" y="770"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A7D503E2-49CC-928C-00C8-A4F791B1049D" otype="Relation" vid_source="3ABA1BF2-4590-96E0-FA92-6E3286534F74" vid_target="007EB1F5-BCEA-3C5F-14C6-32665C423D4F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -344,29 +297,6 @@ Pardubice, 2023</comment>
 <points>
 <point x="120" y="540"/>
 <point x="120" y="424"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B7D8BF1B-E677-2EB4-0AC9-B782070A7A49" otype="Relation" vid_source="7BD0DCD9-D4D4-1856-F389-32CCB1E5E5C1" vid_target="85B429ED-37D2-FFB9-61C4-4CC4A353B7FA">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<sourceLabel class="oracle.dbtools.crest.model.design.Label">
-<site>0</site>
-<labelBounds x="930" y="666" width="84" height="20"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</sourceLabel>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="310" y="932" width="104" height="30"/>
-<noBackgroundColor>true</noBackgroundColor>
-<noForegroundColor>true</noForegroundColor>
-</targetLabel>
-<points>
-<point x="930" y="624"/>
-<point x="930" y="930"/>
-<point x="607" y="929"/>
-<point x="300" y="929"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="B95B8D9B-B31D-C79A-ED00-84CCCABF7CA7" otype="Hierarchy relation" vid_source="633C9AC1-13D9-D1CA-1E1F-6F122904926E" vid_target="7BD0DCD9-D4D4-1856-F389-32CCB1E5E5C1">
